@@ -1,0 +1,245 @@
+{
+"skeleton": {
+	"hash": "cNNKOdFj1fo",
+	"spine": "4.0.56",
+	"x": 31.5,
+	"y": 58,
+	"width": 229.5,
+	"height": 170,
+	"images": "./images/",
+	"audio": "D:/Freelance Job/Job AHieu/SpineTest"
+},
+"bones": [
+	{ "name": "root", "scaleX": 0.5, "scaleY": 0.5 },
+	{ "name": "Top", "parent": "root", "length": 898.05, "rotation": 90, "y": 96.39 },
+	{ "name": "Arm_Behind", "parent": "Top", "length": 182.96, "rotation": 74.52, "x": 199.6, "y": 250.58 },
+	{ "name": "Arm_Front", "parent": "Top", "length": 111.92, "rotation": -154.8, "x": 204.37, "y": -293.88 },
+	{ "name": "Leg", "parent": "root", "rotation": 90, "x": -26.22, "y": 28.77 },
+	{ "name": "Tail", "parent": "Top", "length": 350.28, "rotation": -78.98, "x": 98.38, "y": -126.84 }
+],
+"slots": [
+	{ "name": "Tail", "bone": "Tail", "attachment": "Tail" },
+	{ "name": "Back", "bone": "Top", "attachment": "Back" },
+	{ "name": "Leg", "bone": "Leg", "attachment": "Leg" },
+	{ "name": "Arm_Behind", "bone": "Arm_Behind", "attachment": "Arm_Behind" },
+	{ "name": "Body", "bone": "Top", "attachment": "Body" },
+	{ "name": "Face", "bone": "Top", "attachment": "Face" },
+	{ "name": "Top", "bone": "Top", "attachment": "Top" },
+	{ "name": "Arm_Front", "bone": "Arm_Front", "attachment": "Arm_Front" }
+],
+"skins": [
+	{
+		"name": "Arm_08",
+		"attachments": {
+			"Arm_Behind": {
+				"Arm_Behind": { "name": "Arm/Arm_08/Arm_Behind", "x": 146.52, "y": -141.52, "rotation": -164.52, "width": 290, "height": 341 }
+			},
+			"Arm_Front": {
+				"Arm_Front": { "name": "Arm/Arm_08/Arm_Front", "x": 167.92, "y": 42.69, "rotation": 64.8, "width": 234, "height": 350 }
+			}
+		}
+	},
+	{
+		"name": "Arm_29",
+		"attachments": {
+			"Arm_Behind": {
+				"Arm_Behind": { "name": "Arm/Arm_29/Arm_Behind", "x": 157.34, "y": 16.08, "rotation": -164.52, "width": 331, "height": 181 }
+			},
+			"Arm_Front": {
+				"Arm_Front": { "name": "Arm/Arm_29/Arm_Front", "x": 130.1, "y": -31.8, "rotation": 64.8, "width": 249, "height": 337 }
+			}
+		}
+	},
+	{
+		"name": "Back_08",
+		"attachments": {
+			"Back": {
+				"Back": { "name": "Back/Back_08/Back", "x": 380.11, "y": -280, "rotation": -90, "width": 304, "height": 215 }
+			}
+		}
+	},
+	{
+		"name": "Back_29",
+		"attachments": {
+			"Back": {
+				"Back": { "name": "Back/Back_29/Back", "x": 458.11, "y": -260, "rotation": -90, "width": 436, "height": 443 }
+			}
+		}
+	},
+	{
+		"name": "Body_08",
+		"attachments": {
+			"Body": {
+				"Body": { "name": "Body/Body_08/Body", "x": 263.11, "y": 7, "rotation": -90, "width": 654, "height": 571 }
+			}
+		}
+	},
+	{
+		"name": "Body_29",
+		"attachments": {
+			"Body": {
+				"Body": { "name": "Body/Body_29/Body", "x": 263.11, "y": 7, "rotation": -90, "width": 654, "height": 571 }
+			}
+		}
+	},
+	{
+		"name": "Face_08",
+		"attachments": {
+			"Face": {
+				"Face": { "name": "Face/Face_08/Face", "x": 258.61, "y": 124.5, "rotation": -90, "width": 367, "height": 220 }
+			}
+		}
+	},
+	{
+		"name": "Face_29",
+		"attachments": {
+			"Face": {
+				"Face": { "name": "Face/Face_29/Face", "x": 283.11, "y": 125.5, "rotation": -90, "width": 377, "height": 201 }
+			}
+		}
+	},
+	{
+		"name": "Leg_08",
+		"attachments": {
+			"Leg": {
+				"Leg": { "name": "Leg/Leg_08/Leg", "x": 46.23, "y": -11.72, "rotation": -90, "width": 333, "height": 128 }
+			}
+		}
+	},
+	{
+		"name": "Leg_29",
+		"attachments": {
+			"Leg": {
+				"Leg": { "name": "Leg/Leg_29/Leg", "x": 42.23, "y": -7.22, "rotation": -90, "width": 352, "height": 130 }
+			}
+		}
+	},
+	{
+		"name": "Tail_08",
+		"attachments": {
+			"Tail": {
+				"Tail": { "name": "Tail/Tail_08/Tail", "x": 180.05, "y": 57.88, "rotation": -11.02, "width": 459, "height": 340 }
+			}
+		}
+	},
+	{
+		"name": "Tail_29",
+		"attachments": {
+			"Tail": {
+				"Tail": { "name": "Tail/Tail_29/Tail", "x": 181.41, "y": 20.43, "rotation": -11.02, "width": 514, "height": 317 }
+			}
+		}
+	},
+	{
+		"name": "Top_08",
+		"attachments": {
+			"Top": {
+				"Top": { "name": "Top/Top_08/Top", "x": 450.11, "y": 12, "rotation": -90, "width": 726, "height": 975 }
+			}
+		}
+	},
+	{
+		"name": "Top_29",
+		"attachments": {
+			"Top": {
+				"Top": { "name": "Top/Top_29/Top", "x": 455.61, "y": 22.5, "rotation": -90, "width": 727, "height": 988 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"Top": {
+				"translate": [
+					{
+						"curve": [ 0.111, 0, 0.389, 0, 0.111, 0, 0.389, -10.82 ]
+					},
+					{
+						"time": 0.5,
+						"y": -10.82,
+						"curve": [ 0.611, 0, 0.889, 0, 0.611, -10.82, 0.889, 0 ]
+					},
+					{ "time": 1 }
+				],
+				"scale": [
+					{
+						"x": 1.03,
+						"y": 1.04,
+						"curve": [ 0.167, 1.03, 0.333, 1, 0.167, 1.04, 0.333, 1 ]
+					},
+					{
+						"time": 0.5,
+						"curve": [ 0.667, 1, 0.833, 1.03, 0.667, 1, 0.833, 1.04 ]
+					},
+					{ "time": 1, "x": 1.03, "y": 1.04 }
+				]
+			},
+			"Leg": {
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1, 0.167, 1, 0.333, 1.02 ]
+					},
+					{
+						"time": 0.5,
+						"y": 1.02,
+						"curve": [ 0.667, 1, 0.833, 1, 0.667, 1.02, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"Arm_Behind": {
+				"rotate": [
+					{
+						"value": -0.74,
+						"curve": [ 0.034, -0.3, 0.067, 0 ]
+					},
+					{
+						"time": 0.1,
+						"curve": [ 0.267, 0, 0.433, -7.15 ]
+					},
+					{
+						"time": 0.6,
+						"value": -7.15,
+						"curve": [ 0.734, -7.15, 0.868, -2.56 ]
+					},
+					{ "time": 1, "value": -0.74 }
+				]
+			},
+			"Arm_Front": {
+				"shear": [
+					{
+						"x": 0.88,
+						"y": -0.98,
+						"curve": [ 0.046, 0.38, 0.089, 0, 0.046, -0.42, 0.089, 0 ]
+					},
+					{
+						"time": 0.1333,
+						"curve": [ 0.3, 0, 0.467, 4.92, 0.3, 0, 0.467, -5.47 ]
+					},
+					{
+						"time": 0.6333,
+						"x": 4.92,
+						"y": -5.47,
+						"curve": [ 0.756, 4.92, 0.879, 2.28, 0.756, -5.47, 0.879, -2.54 ]
+					},
+					{ "time": 1, "x": 0.88, "y": -0.98 }
+				]
+			},
+			"Tail": {
+				"rotate": [
+					{
+						"curve": [ 0.167, 0, 0.333, 1.07 ]
+					},
+					{
+						"time": 0.5,
+						"value": 1.07,
+						"curve": [ 0.667, 1.07, 0.833, 0 ]
+					},
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

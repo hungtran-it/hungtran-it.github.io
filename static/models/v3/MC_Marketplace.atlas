@@ -1,0 +1,118 @@
+
+MC_Marketplace.png
+size: 2048, 512
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+Arm/Arm_08/Arm_Behind
+  rotate: true
+  xy: 992, 30
+  size: 145, 171
+  orig: 145, 171
+  offset: 0, 0
+  index: -1
+Arm/Arm_08/Arm_Front
+  rotate: false
+  xy: 1481, 105
+  size: 117, 175
+  orig: 117, 175
+  offset: 0, 0
+  index: -1
+Arm/Arm_29/Arm_Behind
+  rotate: true
+  xy: 1641, 338
+  size: 166, 91
+  orig: 166, 91
+  offset: 0, 0
+  index: -1
+Arm/Arm_29/Arm_Front
+  rotate: false
+  xy: 1165, 6
+  size: 125, 169
+  orig: 125, 169
+  offset: 0, 0
+  index: -1
+Back/Back_08/Back
+  rotate: true
+  xy: 1600, 166
+  size: 152, 108
+  orig: 152, 108
+  offset: 0, 0
+  index: -1
+Back/Back_29/Back
+  rotate: false
+  xy: 1309, 282
+  size: 218, 222
+  orig: 218, 222
+  offset: 0, 0
+  index: -1
+Body/Body_08/Body
+  rotate: true
+  xy: 1021, 177
+  size: 327, 286
+  orig: 327, 286
+  offset: 0, 0
+  index: -1
+Body/Body_29/Body
+  rotate: true
+  xy: 733, 177
+  size: 327, 286
+  orig: 327, 286
+  offset: 0, 0
+  index: -1
+Face/Face_08/Face
+  rotate: true
+  xy: 1529, 320
+  size: 184, 110
+  orig: 184, 110
+  offset: 0, 0
+  index: -1
+Face/Face_29/Face
+  rotate: false
+  xy: 1480, 2
+  size: 189, 101
+  orig: 189, 101
+  offset: 0, 0
+  index: -1
+Leg/Leg_08/Leg
+  rotate: false
+  xy: 1671, 94
+  size: 167, 64
+  orig: 167, 64
+  offset: 0, 0
+  index: -1
+Leg/Leg_29/Leg
+  rotate: true
+  xy: 1710, 160
+  size: 176, 65
+  orig: 176, 65
+  offset: 0, 0
+  index: -1
+Tail/Tail_08/Tail
+  rotate: true
+  xy: 1308, 50
+  size: 230, 170
+  orig: 230, 170
+  offset: 0, 0
+  index: -1
+Tail/Tail_29/Tail
+  rotate: false
+  xy: 733, 16
+  size: 257, 159
+  orig: 257, 159
+  offset: 0, 0
+  index: -1
+Top/Top_08/Top
+  rotate: false
+  xy: 368, 16
+  size: 363, 488
+  orig: 363, 488
+  offset: 0, 0
+  index: -1
+Top/Top_29/Top
+  rotate: false
+  xy: 2, 10
+  size: 364, 494
+  orig: 364, 494
+  offset: 0, 0
+  index: -1

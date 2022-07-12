@@ -1,0 +1,127 @@
+{
+"skeleton": {
+	"hash": "nJu7YBLE00w",
+	"spine": "4.0.56",
+	"x": -250.5,
+	"y": -35.1,
+	"width": 512,
+	"height": 512,
+	"images": "./images/",
+	"audio": "D:/Freelance Job/Job AHieu/SpineTest2"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Body", "parent": "root", "length": 381.76, "rotation": 90, "y": 38.11 },
+	{ "name": "Arm_Front", "parent": "Body", "length": 98.41, "rotation": -131.07, "x": 93.88, "y": -145.57 },
+	{ "name": "Arm_Behind", "parent": "Body", "length": 85.93, "rotation": 49.5, "x": 111.57, "y": 98.08 },
+	{ "name": "Legs", "parent": "root", "rotation": 90, "x": -0.76, "y": 16.29 }
+],
+"slots": [
+	{ "name": "Tail", "bone": "Body", "attachment": "Tail" },
+	{ "name": "Back", "bone": "Body", "attachment": "Back" },
+	{ "name": "Leg", "bone": "Legs", "attachment": "Leg" },
+	{ "name": "Arm_Behind", "bone": "Arm_Behind", "attachment": "Arm_Behind" },
+	{ "name": "Body", "bone": "Body", "attachment": "Body" },
+	{ "name": "Face", "bone": "Body", "attachment": "Face" },
+	{ "name": "Top", "bone": "Body", "attachment": "Top" },
+	{ "name": "Arm_Front", "bone": "Arm_Front", "attachment": "Arm_Front" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Arm_Behind": {
+				"Arm_Behind": { "x": -32.51, "y": -121.42, "rotation": -139.5, "width": 512, "height": 512 }
+			},
+			"Arm_Front": {
+				"Arm_Front": { "x": -164.01, "y": -25.01, "rotation": 41.07, "width": 512, "height": 512 }
+			},
+			"Back": {
+				"Back": { "x": 182.78, "y": -5.5, "rotation": -90, "width": 512, "height": 512 }
+			},
+			"Body": {
+				"Body": { "x": 182.78, "y": -5.5, "rotation": -90, "width": 512, "height": 512 }
+			},
+			"Face": {
+				"Face": { "x": 182.78, "y": -5.5, "rotation": -90, "width": 512, "height": 512 }
+			},
+			"Leg": {
+				"Leg": { "x": 204.61, "y": -6.26, "rotation": -90, "width": 512, "height": 512 }
+			},
+			"Tail": {
+				"Tail": { "x": 182.78, "y": -5.5, "rotation": -90, "width": 512, "height": 512 }
+			},
+			"Top": {
+				"Top": { "x": 182.78, "y": -5.5, "rotation": -90, "width": 512, "height": 512 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"Body": {
+				"translate": [
+					{
+						"curve": [ 0.167, 0, 0.333, 0, 0.167, 0, 0.333, 1.89 ]
+					},
+					{
+						"time": 0.5,
+						"y": 1.89,
+						"curve": [ 0.667, 0, 0.833, 0, 0.667, 1.89, 0.833, 0 ]
+					},
+					{ "time": 1 }
+				],
+				"scale": [
+					{
+						"curve": [ 0.167, 1, 0.333, 1.02, 0.167, 1, 0.333, 1.02 ]
+					},
+					{
+						"time": 0.5,
+						"x": 1.02,
+						"y": 1.02,
+						"curve": [ 0.667, 1.02, 0.833, 1, 0.667, 1.02, 0.833, 1 ]
+					},
+					{ "time": 1 }
+				]
+			},
+			"Arm_Front": {
+				"rotate": [
+					{
+						"value": 0.79,
+						"curve": [ 0.046, 0.34, 0.089, 0 ]
+					},
+					{
+						"time": 0.1333,
+						"curve": [ 0.3, 0, 0.467, 4.43 ]
+					},
+					{
+						"time": 0.6333,
+						"value": 4.43,
+						"curve": [ 0.756, 4.43, 0.879, 2.06 ]
+					},
+					{ "time": 1, "value": 0.79 }
+				]
+			},
+			"Arm_Behind": {
+				"rotate": [
+					{
+						"value": -0.72,
+						"curve": [ 0.046, -0.31, 0.089, 0 ]
+					},
+					{
+						"time": 0.1333,
+						"curve": [ 0.3, 0, 0.467, -4.03 ]
+					},
+					{
+						"time": 0.6333,
+						"value": -4.03,
+						"curve": [ 0.756, -4.03, 0.879, -1.87 ]
+					},
+					{ "time": 1, "value": -0.72 }
+				]
+			}
+		}
+	}
+}
+}
